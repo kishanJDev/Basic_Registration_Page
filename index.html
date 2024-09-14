@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="register-container">
+        <h1>facebook</h1>
+        <h2>Create a new account</h2>
+        <p>It's quick and easy.</p>
+
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Surname" required>
+            </div>
+            <input type="text" placeholder="Mobile number or email address" required>
+            <input type="password" placeholder="New password" required>
+
+            <label>Date of birth</label>
+            <div class="input-group">
+                <select>
+                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                 
+                </select>
+                <select>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                   
+                </select>
+                <select>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                
+                </select>
+            </div>
+
+            <label>Gender</label>
+            <div class="input-group">
+                <label><input type="radio" name="gender" required> Female</label>
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Custom</label>
+            </div>
+
+            <button type="submit" class="signup-btn">Sign Up</button>
+        </form>
+
+        <a href="#" class="login-link">Already have an account?</a>
+    </div>
+
+</body>
+</html>
